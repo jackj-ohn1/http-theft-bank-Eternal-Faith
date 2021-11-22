@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	req, err := httptool.NewRequest(
+	/*req, err := httptool.NewRequest(
 		"",
 		"",
 		"",
@@ -19,7 +19,7 @@ func main() {
 	fmt.Println(req)
 
 	// write your code below
-	// ...
+	// ...*/
 	client := &http.Client{}
 	url := "http://http-theft-bank.gtainccnu.muxixyz.com/api/v1/organization/code"
 
